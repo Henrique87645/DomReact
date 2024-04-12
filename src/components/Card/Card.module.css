@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+}
+
+.card img {
+    width: 325px;
+    height: 185px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: width 0.8s, height 0.8s; 
+}
+
+.card img:hover{
+    scale: 1.2;
+}
